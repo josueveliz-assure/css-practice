@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: #0b032d;
+}
+
+.triangle {
+    border-style: solid;
+    border-color: transparent transparent #229007 transparent;
+    border-top: 0rem;
+}
+
+.third {
+    width: 12rem;
+    border-width: 7rem 9rem 7rem;
+}
+
+.second {
+    width: 6rem;
+    border-width: 7rem 8rem 7rem;
+}
+
+.first {
+    border-width: 7rem 7rem 7rem;
+}
+
+.trunk {
+    background-color: #d2691e;
+    width: 5rem;
+    height: 15rem;
+}
